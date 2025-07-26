@@ -163,3 +163,10 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+cc_prebuilt_binary {
+    name: "android.hardware.light-service.xiaomi",
+    srcs: ["proprietary/vendor/bin/hw/android.hardware.light-service.xiaomi"],
+    vendor: true,
+    installable: true,
+    relative_install_path: "bin/hw",
+}
